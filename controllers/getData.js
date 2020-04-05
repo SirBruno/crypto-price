@@ -11,7 +11,7 @@ module.exports = {
                     convert: 'USD'
                 },
                 headers: {
-                    'X-CMC_PRO_API_KEY': 'd48cb6f8-b956-4022-ab5a-1234b33beb50'
+                    'X-CMC_PRO_API_KEY': '*****'
                 }
             }).then(response => {
                 res.send(response.data);
